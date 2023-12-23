@@ -314,6 +314,11 @@
 .section-pricing {
   padding: 9.6rem;
 }
+.pricing-plan {
+  background-color: #fdf2e9;
+  border-radius: 11px;
+  padding: 4.8rem;
+}
 .plan-header{
   text-align: center;
   margin-bottom: 4.8rem;
@@ -341,6 +346,7 @@
 .plan-text {
   font-weight: 1.6rem;
   line-height: 1.6;
+  color: #6f6f6f;
 }
 .plan-sing-up {
   text-align: center;
