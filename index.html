@@ -552,8 +552,21 @@
                 first meal is on us!
               </p>
               <form class="cta-form" action="#">
-                <input type="text" placeholder="Abebe Bikila" />
-                <input type="email" />
+                <label for="full-name">Full Name</label>
+                <input id="full-name" type="text" placeholder="Abebe Bikila" />
+                <label for="email">Email address</label>
+                <input id="email" type="email" placeholder="test@gmail.com" />
+
+                <label for="select-where">Where did you hear from us?</label>
+                <select id="select-where">
+                  <option value="">Please choose one option:</option>
+                  <option value="friends">Friends and family</option>
+                  <option value="youtube">Youtube video</option>
+                  <option value="twitter">Twitter tweets</option>
+                  <option value="facebook">Facebook post</option>
+                  <option value="instagram">Instagram stories</option>
+                </select>
+
                 <button class="btn">Sign up now</button>
               </form>
             </div>
