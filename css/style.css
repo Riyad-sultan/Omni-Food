@@ -207,7 +207,6 @@
 
 .step-img-box {
   position: relative;
-
   display: flex;
   align-items: center;
   justify-content: center;
@@ -403,7 +402,6 @@
 
 .pricing-plan {
   border-radius: 11px;
-
   width: 75%;
 }
 
@@ -425,7 +423,6 @@
   position: absolute;
   top: 6%;
   right: -18%;
-
   text-transform: uppercase;
   font-size: 1.4rem;
   font-weight: 700;
@@ -664,4 +661,5 @@
 .footer-link:hover,
 .footer-link:active {
   color: #555;
+  
 }
