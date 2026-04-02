@@ -1,3 +1,4 @@
+  
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -588,88 +589,93 @@
             <div class="cta-text-box">
               <h2 class="heading-secondary">Get your first meal for free!</h2>
               <p class="cta-text">
-                Healthy, tasty and hassel-free meals are waiting for you. start
-                eating well today. You can cancle or pause anytime.And the first meal is on us!
-
+                Healthy, tasty and hassle-free meals are waiting for you. Start
+                eating well today. You can cancel or pause anytime. And the
+                first meal is on us!
               </p>
-              <form class="cta-form"name="sign-up"netlify>
+
+              <form class="cta-form" name="sign-up" netlify>
                 <div>
                   <label for="full-name">Full Name</label>
-                  <input 
-                   id="full-name"
-                   type="text"
-                   placeholder="Johon smith"
-                   name="full-name"
-                   required
-                   />
-                  
+                  <input
+                    id="full-name"
+                    type="text"
+                    placeholder="John Smith"
+                    name="full-name"
+                    required
+                  />
                 </div>
+
                 <div>
                   <label for="email">Email address</label>
-                  <input 
-                  id="email"
-                  placeholder="me@example.com"
-                  name="email"
-                  required
-                  type="email">
+                  <input
+                    id="email"
+                    type="email"
+                    placeholder="me@example.com"
+                    name="email"
+                    required
+                  />
                 </div>
+
                 <div>
-                  <label for="select-where">where did you hear from us?</label>
-                  <select name="select-where" id="select-where">
-                  <option value="">please choose one option:</option>
-                  <option value="friends">Friends and Family</option>
-                  <option value="youtube">Youtube video</option>
-                  <option value="podcust">Podcust</option>
-                  <option value="ad">Facebook ad</option>
-                  <option value="others">Others</option>
+                  <label for="select-where">Where did you hear from us?</label>
+                  <select id="select-where" name="select-where" required>
+                    <option value="">Please choose one option:</option>
+                    <option value="friends">Friends and family</option>
+                    <option value="youtube">YouTube video</option>
+                    <option value="podcast">Podcast</option>
+                    <option value="ad">Facebook ad</option>
+                    <option value="others">Others</option>
                   </select>
                 </div>
 
-                <button class="btn btn--form">sign up now</button>
-              </form>
+                <button class="btn btn--form">Sign up now</button>
 
+                <!-- <input type="checkbox" />
+                <input type="number" /> -->
+              </form>
             </div>
             <div
-                class="cta-img-box"
-                role="img"
-                arial-label="Woman enjoing food"
-                ></div>
+              class="cta-img-box"
+              role="img"
+              aria-label="Woman enjoying food"
+            ></div>
           </div>
-
         </div>
-
       </section>
     </main>
+
     <footer class="footer">
       <div class="container grid grid--footer">
         <div class="logo-col">
           <a href="#" class="footer-logo">
-            <img src="img/omnifood-logo.png" alt="Omnifood logo" class="logo">
-
+            <img class="logo" alt="Omnifood logo" src="img/omnifood-logo.png" />
           </a>
+
           <ul class="social-links">
             <li>
-              <a class="footer-link" href="#">
-                <icon-icon class="social-icon" name="logo-instagram"></icon-icon>
-              </a>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-instagram"></ion-icon
+              ></a>
             </li>
             <li>
-              <a class="footer-link" href="#">
-                <icon-icon class="social-icon" name="logo-facebook"></icon-icon>
-              </a>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-facebook"></ion-icon
+              ></a>
             </li>
             <li>
               <a class="footer-link" href="#"
                 ><ion-icon class="social-icon" name="logo-twitter"></ion-icon
               ></a>
             </li>
-
           </ul>
+
           <p class="copyright">
             Copyright &copy; <span class="year">2027</span> by Omnifood, Inc.
             All rights reserved.
           </p>
         </div>
+
         <div class="address-col">
           <p class="footer-heading">Contact us</p>
           <address class="contacts">
@@ -685,6 +691,7 @@
             </p>
           </address>
         </div>
+
         <nav class="nav-col">
           <p class="footer-heading">Account</p>
           <ul class="footer-nav">
@@ -698,21 +705,22 @@
         <nav class="nav-col">
           <p class="footer-heading">Company</p>
           <ul class="footer-nav">
-            <li><a href="#" class="footer-link">About Omnifood</a></li>
-            <li><a href="#" class="footer-link">For Business</a></li>
-            <li><a href="#" class="footer-link">Cooking partners</a></li>
-            <li><a href="#" class="footer-link">Careers</a></li>
-            
-            <nav class="nav-col">
-              <p class="footer-heading">Resources</p>
-              <ul class="footer-nav">
-                <li><a href="#" class="footer-link">Recipe directory</a></li>
-                <li><a href="#" class="footer-link">Help center</a></li>
-                <li><a href="#" class="footer-link">Privacy $ terms</a></li>
+            <li><a class="footer-link" href="#">About Omnifood</a></li>
+            <li><a class="footer-link" href="#">For Business</a></li>
+            <li><a class="footer-link" href="#">Cooking partners</a></li>
+            <li><a class="footer-link" href="#">Careers</a></li>
+          </ul>
+        </nav>
 
-              </ul>
-            </nav>
+        <nav class="nav-col">
+          <p class="footer-heading">Resources</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">Recipe directory </a></li>
+            <li><a class="footer-link" href="#">Help center</a></li>
+            <li><a class="footer-link" href="#">Privacy & terms</a></li>
           </ul>
         </nav>
       </div>
     </footer>
+  </body>
+</html>
